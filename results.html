@@ -28,15 +28,15 @@
 </div>
  <h2>Eje Diplomatico: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-Nacionalismo" src="values/Nacionalismo" height="128pt"/>
-    <div class="bar Nacionalismo" id="bar-Nacionalismo"><div class="text-wrapper" id="Nacionalismo"></div></div>
+    <img id="img-nacion" src="values/nacion.png" height="128pt"/>
+    <div class="bar nacion" id="bar-nacion"><div class="text-wrapper" id="nacion"></div></div>
     <div class="bar Globalismo" id="bar-Globalismo"><div class="text-wrapper" id="Globalismo"></div></div>
     <img id="img-Globalismo" src="values/Globalismo.png" height="128pt"/>
 </div>
  <h2>Eje Civil: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-Anarquismo" src="values/Anarquismo" height="128pt"/>
-    <div class="bar Anarquismo" id="bar-Anarquismo"><div class="text-wrapper" id="Anarquismo"></div></div>
+    <img id="img-anarquia" src="values/anarquia.png" height="128pt"/>
+    <div class="bar anarquia" id="bar-anarquia"><div class="text-wrapper" id="anarquia"></div></div>
     <div class="bar Totalitarismo" id="bar-Totalitarismo"><div class="text-wrapper" id="Totalitarismo"></div></div>
     <img id="img-Totalitarismo" src="values/Totalitarismo.png" height="128pt"/>
 </div>
@@ -111,25 +111,25 @@ stats"></a></div></noscript>
 
     Comunismo       = getQueryVariable("e")
     Globalismo      = getQueryVariable("d")
-    Anarquismo      = getQueryVariable("g")
+    anarquia        = getQueryVariable("g")
     Progresismo     = getQueryVariable("s")
     Capitalismo     = (100 - Comunismo).toFixed(1)
-    Nacionalismo    = (100 - Globalismo).toFixed(1)
-    Totalitarismo   = (100 - Anarquismo).toFixed(1)
+    nacion          = (100 - Globalismo).toFixed(1)
+    Totalitarismo   = (100 - anarquia).toFixed(1)
     Conservadurismo = (100 - Progresismo).toFixed(1)
 
     setBarValue("Comunismo", Comunismo)
     setBarValue("Capitalismo", Capitalismo)
     setBarValue("Globalismo", Globalismo)
-    setBarValue("Nacionalismo", Nacionalismo)
-    setBarValue("Anarquismo", Anarquismo)
+    setBarValue("Nacionalismo", nacion)
+    setBarValue("Anarquismo", anarquia)
     setBarValue("Totalitarismo", Totalitarismo)
     setBarValue("Progresismo", Progresismo)
     setBarValue("Conservadurismo", Conservadurismo)
 
     document.getElementById("economic-label").innerHTML = setLabel(Comunismo, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(Globalismo, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(Anarquismo, govtArray)
+    document.getElementById("state-label").innerHTML = setLabel(anarquia, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(Progresismo, sctyArray)
 
     ideology = ""
@@ -137,7 +137,7 @@ stats"></a></div></noscript>
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - Comunismo), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - Anarquismo), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - anarquia), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.dipl - Globalismo), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - Progresismo), 1.73856063)
         if (dist < ideodist) {
@@ -167,11 +167,11 @@ stats"></a></div></noscript>
         ctx.drawImage(img, 20, 170, 100, 100);
         img = document.getElementById("img-Capitalismo")
         ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-Nacionalismo")
+        img = document.getElementById("img-nacion")
         ctx.drawImage(img, 20, 290, 100, 100)
         img = document.getElementById("img-Globalismo")
         ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-Anarquismo")
+        img = document.getElementById("img-anarquia")
         ctx.drawImage(img, 20, 410, 100, 100)
         img = document.getElementById("img-Totalitarismo")
         ctx.drawImage(img, 680, 410, 100, 100)
@@ -190,11 +190,11 @@ stats"></a></div></noscript>
         ctx.fillStyle="#f9eb12"
         ctx.fillRect(682-5.6*Capitalismo, 184, 5.6*Capitalismo-2, 72)
         ctx.fillStyle="#f5c10e"
-        ctx.fillRect(120, 304, 5.6*Nacionalismo-2, 72)
+        ctx.fillRect(120, 304, 5.6*nacion-2, 72)
         ctx.fillStyle="#15faed"
         ctx.fillRect(682-5.6*Globalismo, 304, 5.6*Globalismo-2, 72)
         ctx.fillStyle="#f7f8f9"
-        ctx.fillRect(120, 424, 5.6*Anarquismo-2, 72)
+        ctx.fillRect(120, 424, 5.6*anarquia-2, 72)
         ctx.fillStyle="#707172"
         ctx.fillRect(682-5.6*Totalitarismo, 424, 5.6*Totalitarismo-2, 72)
         ctx.fillStyle="#13b3fe"
@@ -210,8 +210,8 @@ stats"></a></div></noscript>
 
         ctx.textAlign="left"
         if (Comunismo       > 30) {ctx.fillText(Comunismo + "%", 130, 237.5)}
-        if (Nacionalismo    > 30) {ctx.fillText(Nacionalismo + "%", 130, 357.5)}
-        if (Anarquismo      > 30) {ctx.fillText(Anarquismo + "%", 130, 477.5)}
+        if (nacion          > 30) {ctx.fillText(nacion + "%", 130, 357.5)}
+        if (anarquia        > 30) {ctx.fillText(anarquia + "%", 130, 477.5)}
         if (Conservadurismo > 30) {ctx.fillText(Conservadurismo + "%", 130, 597.5)}
         ctx.textAlign="right"
         if (Capitalismo     > 30) {ctx.fillText(Capitalismo + "%", 670, 237.5)}
