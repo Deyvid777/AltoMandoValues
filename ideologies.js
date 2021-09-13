@@ -207,6 +207,33 @@ ideologies = [
             "scty": 80
         }
     },
+    {    
+        "name": "Bolchevismo Nacional",
+        "stats": {
+            "econ": 100,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Distributismo Progresivo",
+        "stats": {
+            "econ": 60,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 80
+        }
+    },
+    {
+        "name": "Distributismo Conservador",
+        "stats": {
+            "econ": 60,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 20
+        }
+    },
     {
         "name": "Populismo de Izquierda",
         "stats": {
@@ -244,6 +271,15 @@ ideologies = [
         }
     },
     {
+        "name": "Democracia Religiosa",
+        "stats": {
+            "econ": 60,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 30
+        }
+    },
+    {
         "name": "Democracia Cristiana",
         "stats": {
             "econ": 60,
@@ -258,6 +294,15 @@ ideologies = [
             "econ": 60,
             "dipl": 70,
             "govt": 60,
+            "scty": 80
+        }
+    },
+    {
+        "name": "Autoritarismo Social",
+        "stats": {
+            "econ": 60,
+            "dipl": 50,
+            "govt": 20,
             "scty": 80
         }
     },
@@ -343,6 +388,15 @@ ideologies = [
         }
     },
     {
+        "name": "Conservadurismo Liberal",
+        "stats": {
+            "econ": 40,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 45
+        }
+    },
+    {
         "name": "Conservadurismo Moderado",
         "stats": {
             "econ": 40,
@@ -397,11 +451,11 @@ ideologies = [
         }
     },
     {
-        "name": "Autocracia",
+        "name": "Avaricionismo",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
+            "econ": 0,
+            "dipl": 50,
+            "govt": 100,
             "scty": 50
         }
     },
@@ -478,6 +532,15 @@ ideologies = [
         }
     },
     {
+        "name": "Socialismo con Características Chinas",
+        "stats": {
+            "econ": 60,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 50
+        }
+    },
+    {
         "name": "Fundamentalismo",
         "stats": {
             "econ": 20,
@@ -513,21 +576,219 @@ ideologies = [
             "scty": 40
         }
     },
+    { 
+        "name": "Paleolibertarianismo",
+        "stats": {
+            "econ": 0,
+            "dipl": 50,
+            "govt": 80,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Capitalismo Rosa",
+        "stats": {
+            "econ": 10,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 85
+        }
+    },
+    {
+        "name": "Iluminación Oscura",
+        "stats": {
+            "econ": 5,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 5
+        }
+    },
+    {
+        "name": "Fordismo",
+        "stats": {
+            "econ": 5,
+            "dipl": 100,
+            "govt": 5,
+            "scty": 100
+        }
+    },
+    {
+        "name": "Anarquismo Nacional",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 90,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Dengismo",
+        "stats": {
+            "econ": 50,
+            "dipl": 30,
+            "govt": 15,
+            "scty": 40
+        }
+    },
+    {
+        "name": "Nacionalismo Social",
+        "stats": {
+            "econ": 60,
+            "dipl": 25,
+            "govt": 25,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Anarco-Primitivismo",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Longismo",
+        "stats": {
+            "econ": 60,
+            "dipl": 30,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Tecnoprimitivismo",
+        "stats": {
+            "econ": 50,
+            "dipl": 5,
+            "govt": 30,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Strasserismo",
+        "stats": {
+            "econ": 75,
+            "dipl": 5,
+            "govt": 15,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Liberalismo de Estado",
+        "stats": {
+            "econ": 30,
+            "dipl": 60,
+            "govt": 5,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Nacionalismo Revolucionario",
+        "stats": {
+            "econ": 60,
+            "dipl": 5,
+            "govt": 20,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Fascismo Clerical",
+        "stats": {
+            "econ": 60,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 2
+        }
+    },
+    {
+        "name": "Tercera Teoría Internacional",
+        "stats": {
+            "econ": 70,
+            "dipl": 30,
+            "govt": 50,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Comunismo Nacional",
+        "stats": {
+            "econ": 95,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Integralismo",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 30,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Korwinismo",
+        "stats": {
+            "econ": 0,
+            "dipl": 25,
+            "govt": 70,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Primitivismo Tribal",
+        "stats": {
+            "econ": 50,
+            "dipl": 0,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Internacionalismo Religioso",
+        "stats": {
+            "econ": 50,
+            "dipl": 100,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "name": "Anarco-Nihilismo",
+        "stats": {
+            "econ": 70,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
+        }
+    },
+    {
+        "name": "Titoismo",
+        "stats": {
+            "econ": 70,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Minarco-Titoismo",
+        "stats": {
+            "econ": 70,
+            "dipl": 40,
+            "govt": 70,
+            "scty": 60
+        }
+    },
     {
         "name": "Capitalismo Totalitario",
         "stats": {
             "econ": 0,
             "dipl": 30,
             "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Ultra-Capitalismo",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
             "scty": 50
         }
     },
