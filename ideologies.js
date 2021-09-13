@@ -138,7 +138,7 @@ ideologies = [
     {
         "name": "Juche",
         "stats": {
-            "econ": 100,
+            "econ": 90,
             "dipl": 10,
             "govt": 0,
             "scty": 5
