@@ -2,7 +2,7 @@ questions = [
     {
         "question": "Debe defenderse la propiedad privada.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -11,7 +11,7 @@ questions = [
     {
         "question": "El mercado debe asignar las productos basicos.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -20,6 +20,15 @@ questions = [
     {
         "question": "La opresión de las corporaciones es más preocupante que la opresión de los gobiernos.",
         "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Es necesario intervenir en la economia para proteger a los consumidores.",
+        "effect": {
             "econ": 10,
             "dipl": 0,
             "govt": -5,
@@ -27,18 +36,9 @@ questions = [
         }
     },
     {
-        "question": "Intervenir en la economia para proteger a los consumidores es estupido.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
         "question": "Cuanto más libres sean los mercados, más libre será la gente.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -56,7 +56,7 @@ questions = [
     {
         "question": "Los trabajadores deberian de poseer los medios de producción.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -65,7 +65,7 @@ questions = [
     {
         "question": "Se deberia distribuir la riqueza obtenida.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -74,7 +74,7 @@ questions = [
     {
         "question": "De cada uno según su capacidad, a cada uno según su necesidad.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -83,7 +83,7 @@ questions = [
     {
         "question": "El Proteccionismo, aveces es necesario para salvar la economia.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": -5,
             "scty": 0
