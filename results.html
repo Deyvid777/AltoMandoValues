@@ -21,10 +21,10 @@
 
 <h2>Eje Económico: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
-    <img id="img-Capitalismo" src="values/Capitalismo.png" height="128pt"/>
-    <div class="bar Capitalismo" id="bar-Capitalismo"><div class="text-wrapper" id="Capitalismo"></div></div>
-    <div class="bar Comunismo" id="bar-Comunismo"><div class="text-wrapper" id="Comunismo"></div></div>
     <img id="img-Comunismo" src="values/Comunismo.png" height="128pt"/>
+    <div class="bar Comunismo" id="bar-Comunismo"><div class="text-wrapper" id="Comunismo"></div></div>
+    <div class="bar Capitalismo" id="bar-Capitalismo"><div class="text-wrapper" id="Capitalismo"></div></div>
+    <img id="img-Capitalismo" src="values/Capitalismo.png" height="128pt"/>
 </div>
 <h2>Eje Diplomático: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
@@ -40,14 +40,14 @@
     <div class="bar Totalitarismo" id="bar-Totalitarismo"><div class="text-wrapper" id="Totalitarismo"></div></div>
     <img id="img-Totalitarismo" src="values/Totalitarismo.png" height="128pt"/>
 </div>
-<h2>Eje Cultural: <span class="weight-300" id="society-label"></span></h2>
+<h2>Eje Social: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-Conservadurismo" src="values/Conservadurismo.png" height="128pt"/>
     <div class="bar Conservadurismo" id="bar-Conservadurismo"><div class="text-wrapper" id="Conservadurismo"></div></div>
     <div class="bar Progresismo" id="bar-Progresismo"><div class="text-wrapper" id="Progresismo"></div></div>
     <img id="img-Progresismo" src="values/Progresismo.png" height="128pt"/>
 </div>
-<h2>Persona más cercana: <span class="weight-300" id="ideology-label"></span></h2>
+<h2>Persona/Ideologia más cercana: <span class="weight-300" id="ideology-label"></span></h2>
 <p>El emparejamiento ideológico es un trabajo en progreso y es mucho menos preciso que los valores y ejes.</p>
 <p>Puedes enviar estos resultados copiando y pegando la URL en la parte superior de la página o usando la imagen a continuación. ¿Crees que tu ideología coincidente estaba equivocada? ¿Quiere ayudarnos a calibrar la prueba? Envíenos los resultados junto con su ideología política a Deyvid#8195, o envíenos cualquier comentario, pregunta o crítica. </p>
 <hr/>
@@ -91,7 +91,7 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Darwinista social", "Capitalista", "Capitalista social", "Centrista", "Social", "Socialista", "Comunista"
+    econArray = ["Communista","Socialista","Social","Centrista","Capitalista Social","Capitalista","Darwinista social"]
     diplArray = ["Cosmopolita","Internacionalista","Pacifico","Balanceado","Patriota","Nacionalista","Chovinista"]
     govtArray = ["Anarquista","Libertario","Liberal","Moderado","Estatista","Autoritario","Totalitario"]
     sctyArray = ["Justiciero Social","Progresista","Reformista","Neutral","Conservador","Tradicionalista","Reaccionario"]
@@ -108,17 +108,17 @@ stats"></a></div></noscript>
         	{return ""}
     }
    
-    Capitalismo  = getQueryVariable("e")
+    Comunismo  = getQueryVariable("e")
     Globalismo     = getQueryVariable("d")
     Anarquismo   = getQueryVariable("g")
     Progresismo  = getQueryVariable("s")
-    Comunismo    = (100 - Capitalismo).toFixed(1)
+    Capitalismo    = (100 - Capitalismo).toFixed(1)
     Nacionalismo     = (100 - Globalismo   ).toFixed(1)
     Totalitarismo = (100 - Anarquismo ).toFixed(1)
     Conservadurismo = (100 - Progresismo).toFixed(1)
   
-    setBarValue("Capitalismo", Capitalismo)
     setBarValue("Comunismo", Comunismo)
+    setBarValue("Capitalismo", Capitalismo)
     setBarValue("Globalismo", Globalismo)
     setBarValue("Nacionalismo", Nacionalismo)
     setBarValue("Anarquismo", Anarquismo)
@@ -126,7 +126,7 @@ stats"></a></div></noscript>
     setBarValue("Progresismo", Progresismo)
     setBarValue("Conservadurismo", Conservadurismo)
   
-    document.getElementById("economic-label").innerHTML = setLabel(Capitalismo, econArray)
+    document.getElementById("economic-label").innerHTML = setLabel(Comunismo, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(Globalismo, diplArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(Anarquismo, govtArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(Progresismo, sctyArray)
@@ -135,7 +135,7 @@ stats"></a></div></noscript>
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - Capitalismo), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - Comunismo), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.govt - Anarquismo), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.dipl - Globalismo), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - Progresismo), 1.73856063)
@@ -162,9 +162,9 @@ stats"></a></div></noscript>
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,650);
 
-        img = document.getElementById("img-Capitalismo")
-        ctx.drawImage(img, 20, 170, 100, 100);
         img = document.getElementById("img-Comunismo")
+        ctx.drawImage(img, 20, 170, 100, 100);
+        img = document.getElementById("img-Capitalismo")
         ctx.drawImage(img, 680, 170, 100, 100)
         img = document.getElementById("img-Nacionalismo")
         ctx.drawImage(img, 20, 290, 100, 100)
@@ -184,10 +184,10 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 300, 560, 80)
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
-        ctx.fillStyle="#f9eb12"
-        ctx.fillRect(120, 184, 5.6*Capitalismo-2, 72)
         ctx.fillStyle="#fe0303"
-        ctx.fillRect(682-5.6*Comunismo, 184, 5.6*Comunismo-2, 72)
+        ctx.fillRect(120, 184, 5.6*Comunismo-2, 72)
+        ctx.fillStyle="#f9eb12"
+        ctx.fillRect(682-5.6*Capitalismo, 184, 5.6*Capitalismo-2, 72)
         ctx.fillStyle="#f5c10e"
         ctx.fillRect(120, 304, 5.6*Nacionalismo-2, 72)
         ctx.fillStyle="#15faed"
@@ -208,12 +208,12 @@ stats"></a></div></noscript>
         ctx.fillText(ideology, 20, 140)
       
         ctx.textAlign="left"
-        if (Capitalismo  > 30) {ctx.fillText(Capitalismo + "%", 130, 237.5)}
+        if (Comunismo  > 30) {ctx.fillText(Comunismo + "%", 130, 237.5)}
         if (Globalismo     > 30) {ctx.fillText(Globalismo + "%", 130, 357.5)}
         if (Anarquismo   > 30) {ctx.fillText(Anarquismo + "%", 130, 477.5)}
         if (Progresismo > 30) {ctx.fillText(Progresismo + "%", 130, 597.5)}
         ctx.textAlign="right"
-        if (Comunismo    > 30) {ctx.fillText(Comunismo + "%", 670, 237.5)}
+        if (Capitalismo    > 30) {ctx.fillText(Capitalismo + "%", 670, 237.5)}
         if (Nacionalismo     > 30) {ctx.fillText(Nacionalismo + "%", 670, 357.5)}
         if (Totalitarismo > 30) {ctx.fillText(Totalitarismo + "%", 670, 477.5)}
         if (Conservadurismo  > 30) {ctx.fillText(Conservadurismo + "%", 670, 597.5)}
@@ -225,7 +225,7 @@ stats"></a></div></noscript>
         ctx.fillText("Eje Económico: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Eje Diplomático: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Eje Civil: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Eje Cultural: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("Eje Social: " + document.getElementById("society-label").innerHTML, 400, 535)
       
         document.getElementById("banner").src = c.toDataURL();
     }
