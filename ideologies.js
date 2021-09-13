@@ -13,7 +13,7 @@ ideologies = [
         "name": "Comunalismo",
         "stats": {
             "econ": 100,
-            "dipl": 70,
+            "dipl": 30,
             "govt": 90,
             "scty": 90
         }
