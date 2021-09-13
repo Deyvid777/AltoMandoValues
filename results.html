@@ -19,33 +19,18 @@
 
 <h1>Resultados</h1>
 
-<h2>Eje Economico: <span class="weight-300" id="economic-label"></span></h2>
-<div class="axis">
-    <img id="img-Comunismo" src="values/Comunismo.png" height="128pt"/>
-    <div class="bar Comunismo" id="bar-Comunismo"><div class="text-wrapper" id="Comunismo"></div></div>
-    <div class="bar Capitalismo" id="bar-Capitalismo"><div class="text-wrapper" id="Capitalismo"></div></div>
-    <img id="img-Capitalismo" src="values/Capitalismo.png" height="128pt"/>
-</div>
-<h2>Eje Diplomatico: <span class="weight-300" id="diplomatic-label"></span></h2>
-<div class="axis">
-    <img id="img-Nacionalismo" src="values/Nacionalismo" height="128pt"/>
-    <div class="bar Nacionalismo" id="bar-Nacionalismo"><div class="text-wrapper" id="Nacionalismo"></div></div>
-    <div class="bar Globalismo" id="bar-Globalismo"><div class="text-wrapper" id="Globalismo"></div></div>
-    <img id="img-Globalismo" src="values/Globalismo.png" height="128pt"/>
-</div>
-<h2>Eje Civil: <span class="weight-300" id="state-label"></span></h2>
-<div class="axis">
-    <img id="img-Anarquismo" src="values/Anarquismo" height="128pt"/>
-    <div class="bar Anarquismo" id="bar-Anarquismo"><div class="text-wrapper" id="Anarquismo"></div></div>
-    <div class="bar Totalitarismo" id="bar-Totalitarismo"><div class="text-wrapper" id="Totalitarismo"></div></div>
-    <img id="img-Totalitarismo" src="values/Totalitarismo.png" height="128pt"/>
-</div>
-<h2>Eje Social: <span class="weight-300" id="society-label"></span></h2>
-<div class="axis">
-    <img id="img-Conservadurismo" src="values/Conservadurismo.png" height="128pt"/>
-    <div class="bar Conservadurismo" id="bar-Conservadurismo"><div class="text-wrapper" id="Conservadurismo"></div></div>
-    <div class="bar Progresismo" id="bar-Progresismo"><div class="text-wrapper" id="Progresismo"></div></div>
-    <img id="img-Progresismo" src="values/Progresismo.png" height="128pt"/>
+ <!-- HACK TO GET IMAGES PROPERLY WORK ON CANVAS -->
+    <img id="img-Comunismo" src="values/Comunismo.png" height="200%" style="display: none;"/>
+    <img id="img-Nacionalismo" src="values/Nacionalismo.png" height="128pt" style="display: none;"/>
+    <img id="img-Anarquismo" src="values/Anarquismo.png" height="128pt" style="display: none;"/>
+    <img id="img-Conservadurismo" src="values/Conservadurismo.png" height="128pt" style="display: none;"/>
+	
+    <img id="img-Capitalismo" src="values/Capitalismo.png" height="200%" style="display: none;"/>
+    <img id="img-Globalismo" src="values/Globalismo.png" height="128pt" style="display: none;"/>
+    <img id="img-Totalitarismo" src="values/Totalitarismo.png" height="128pt" style="display: none;"/>
+    <img id="img-Progresismo" src="values/Progresismo.png" height="128pt" style="display: none;"/>
+
+
 </div>
 <h2>Persona/Ideologia más cercana: <span class="weight-300" id="ideology-label"></span></h2>
 <p>El emparejamiento ideológico es un trabajo en progreso y es mucho menos preciso que los valores y ejes.</p>
