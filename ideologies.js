@@ -10,6 +10,42 @@ ideologies = [
         }
     },
     {
+        "name": "Comunalismo",
+        "stats": {
+            "econ": 100,
+            "dipl": 30,
+            "govt": 90,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Soulismo",
+        "stats": {
+            "econ": 100,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 90
+       }
+    },
+    {
+        "name": "Anarcofeminismo",
+        "stats": {
+            "econ": 95,
+            "dipl": 90,
+            "govt": 100,
+            "scty": 100
+        }
+    },
+    {
+       "name": "Socialismo Ingles",
+       "stats": {
+           "econ": 75,
+           "dipl": 0,
+           "govt": 0,
+           "scty": 50
+        }
+    },
+    {
         "name": "Comunismo Libertario",
         "stats": {
             "econ": 100,
@@ -24,6 +60,15 @@ ideologies = [
             "econ": 100,
             "dipl": 100,
             "govt": 60,
+            "scty": 80
+        }
+    },
+    {
+        "name": "Marxismo Ortodoxo",
+        "stats": {
+            "econ": 100,
+            "dipl": 100,
+            "govt": 40,
             "scty": 80
         }
     },
@@ -55,6 +100,15 @@ ideologies = [
         }
     },
     {
+        "name": "Marxismo-leninismo",
+        "stats": {
+            "econ": 100,
+            "dipl": 50,
+            "govt": 0,
+            "scty": 50
+        }
+    },
+    {
         "name": "Stalinismo/Maoismo",
         "stats": {
             "econ": 100,
@@ -70,6 +124,24 @@ ideologies = [
             "dipl": 50,
             "govt": 30,
             "scty": 30
+         }
+    },
+    {
+        "name": "Socialismo Útopico",
+        "stats": {
+            "econ": 80,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Juche",
+        "stats": {
+            "econ": 100,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 5
         }
     },
     {
