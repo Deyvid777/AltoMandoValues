@@ -549,6 +549,15 @@ ideologies = [
         }
     },
     {
+        "name": "Kranoterismo/Deyvid",
+        "stats": {
+            "econ": 15,
+            "dipl": 10,
+            "govt": 30,
+            "scty": 5
+        }
+    },
+    {
         "name": "Capitalismo Libertario",
         "stats": {
             "econ": 20,
@@ -726,15 +735,6 @@ ideologies = [
             "dipl": 20,
             "govt": 30,
             "scty": 10
-        }
-    },
-    {
-        "name": "Kranoterismo/Deyvid",
-        "stats": {
-            "econ": 15,
-            "dipl": 10,
-            "govt": 30,
-            "scty": 5
         }
     },
     {
