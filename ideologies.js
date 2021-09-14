@@ -666,6 +666,15 @@ ideologies = [
         }
     },
     {
+        "name": "Anarco-Nacional Bolchevismo/Anarco-NazBol",
+        "stats": {
+            "econ": 95,
+            "dipl": 10,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
         "name": "Tecnoprimitivismo",
         "stats": {
             "econ": 50,
