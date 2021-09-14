@@ -799,5 +799,14 @@ ideologies = [
             "govt": 100,
             "scty": 50
         }
+    },
+    {
+        "name": "Kranoterismo/Deyvid",
+        "stats": {
+            "econ": 15,
+            "dipl": 10,
+            "govt": 30,
+            "scty": 5
+        }
     }
 ];
