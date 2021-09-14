@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "El acceso no regulado a los mercados extranjeros es algo bueno..",
+        "question": "El acceso no regulado a los mercados extranjeros es algo bueno.",
         "effect": {
             "econ": -10,
             "dipl": 0,
