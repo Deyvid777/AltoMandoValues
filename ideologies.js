@@ -731,7 +731,7 @@ ideologies = [
     {
         "name": "Pensamiento de José Nietzsche",
         "stats": {
-            "econ": 76,
+            "econ": 75,
             "dipl": 25,
             "govt": 35,
             "scty": 15
