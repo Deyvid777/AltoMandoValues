@@ -729,6 +729,15 @@ ideologies = [
         }
     },
     {
+        "name": "Kranoterismo/Deyvid",
+        "stats": {
+            "econ": 15,
+            "dipl": 10,
+            "govt": 30,
+            "scty": 5
+        }
+    },
+    {
         "name": "Korwinismo",
         "stats": {
             "econ": 0,
@@ -798,15 +807,6 @@ ideologies = [
             "dipl": 50,
             "govt": 100,
             "scty": 50
-        }
-    },
-    {
-        "name": "Kranoterismo/Deyvid",
-        "stats": {
-            "econ": 15,
-            "dipl": 10,
-            "govt": 30,
-            "scty": 5
         }
     }
 ];
