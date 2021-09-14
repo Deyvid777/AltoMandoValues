@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Debe defenderse la propiedad privada.",
+        "question": "Es importante defender la Propiedad Privada.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -9,16 +9,16 @@ questions = [
         }
     },
     {
-        "question": "El mercado debe asignar las productos basicos.",
+        "question": "El estado deberia dar los productos basicos a la población.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "La opresión de las corporaciones es más preocupante que la opresión de los gobiernos.",
+        "question": "La intervención estatal en la economía casi siempre resulta en una catástrofe.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "Cuanto más libres sean los mercados, más libre será la gente.",
+        "question": "El acceso no regulado a los mercados extranjeros es algo bueno..",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -45,9 +45,9 @@ questions = [
         }
     },
     {
-        "question": "El Bienestar es un robo.",
+        "question": "Los Impuestos son un robo.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -63,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "Se deberia distribuir la riqueza obtenida.",
+        "question": "Deberían nacionalizarse los ferrocarriles y otros sistemas de transporte.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "De cada uno según su capacidad, a cada uno según su necesidad.",
+        "question": "En la sociedad moderna, los ricos tienen riqueza a costa de los pobres.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,16 +81,16 @@ questions = [
         }
     },
     {
-        "question": "El Proteccionismo, aveces es necesario para salvar la economia.",
+        "question": "Las grandes empresas se han convertido en una minoría oprimida por culpa de la acción estatal rencorosa.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 5,
             "scty": 0
         }
     },
     {
-        "question": "Mi nación es grandiosa.",
+        "question": "Los intereses de mi nación deben considerarse más importantes que los de otras naciones.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
- "question": "Apoyo organizaciones como la Union Europea.",
+        "question": "Apoyo alianzas militares internacionales como CSTO, OTAN, etc.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Es importante mantener la soberania nacional.",
+        "question": "Es importante mantener la soberania nacional ante amenazas extranjeras.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "Uno de los objetivos que debemos conseguir es un mundo unido.",
+        "question": "Una nación global donde todos los países estén unidos será beneficiosa para la humanidad.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "Estoy orgulloso de mi país.",
+        "question": "Estoy orgulloso de la identidad de mi país.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Apoyo alianzas militares internacionales como CSTO, OTAN, etc.",
+        "question": "Somos ante todo ciudadanos de la Tierra.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "Las uniones regionales como la Unión Europea son deseables.",
+        "question": "Apoyo uniones regionales, como la Unión Europea.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -198,7 +198,16 @@ questions = [
         }
     },
     {
-        "question": "El sacrificio de algunas libertades civiles es necesario para protegernos de los actos de terrorismo.",
+        "question": "Nadie debería tener acceso a mi información privada sin mi consentimiento.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La vigilancia gubernamental es un mal necesario.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -207,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "La vigilancia gubernamental es necesaria en el mundo moderno.",
+        "question": "La entrada ilegal al país debe tener duras consecuencias.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -216,7 +225,16 @@ questions = [
         }
     },
     {
-        "question": "La mera existencia del estado es una amenaza para nuestra libertad.",
+        "question": "Un individuo nunca puede estar verdaderamente separado del estado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El estado es solo un arma para oprimir a las libertades civiles del individuo.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -225,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "Toda autoridad debe ser cuestionada.",
+        "question": "Si las personas quieren llevar estilos de vida poco saludables, tienen derecho a hacerlo.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -234,34 +252,16 @@ questions = [
         }
     },
     {
-        "question": "Es importante que el gobierno siga la opinión de la mayoría, incluso si está equivocada.",
+        "question": "La policía es necesaria para mantener la seguridad y el orden en la población.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": -10,
             "scty": 0
         }
     },
     {
-        "question": "No hace falta un gobierno fuerte.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "La mayoría de drogas deberían ser legales.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "La libertad de expresión debe ser un derecho humano.",
+        "question": "La libertad de expresión es vital para una sociedad sana.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -279,7 +279,7 @@ questions = [
         }
     },
     {
-        "question": "Debe defenderse el matrimonio entre personas del mismo sexo.",
+        "question": "Debe ser legal el matrimonio entre personas del mismo sexo.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,12 +297,12 @@ questions = [
         }
     },
     {
-        "question": "El sexo fuera del matrimonio es un pecado.",
+        "question": "Las mujeres deben rechazar el tradicionalismo como una política abusiva hacia sus derechos.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "La prostitución es un acto deplorable.",
+        "question": "La pornografía da un efecto negativo a la sociedad.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "El patriarcado no solo es real, sino que debe eliminarse.",
+        "question": "No veo nacionalidad, raza, religión u otra, solo veo a seres humanos.",
         "effect": {
             "econ": 0,
             "dipl": 0,
