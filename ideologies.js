@@ -378,6 +378,15 @@ ideologies = [
         }
     },
     {
+        "name": "Georgismo",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 65,
+            "scty": 75
+        }
+    },
+    {
         "name": "Anarquismo Religioso",
         "stats": {
             "econ": 50,
