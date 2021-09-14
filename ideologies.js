@@ -162,6 +162,15 @@ ideologies = [
         }
     },
     {
+        "name": "Hush Puppies",
+        "stats": {
+            "econ": 80,
+            "dipl": 50,
+            "govt": 45,
+            "scty": 25
+        }
+    },
+    {
         "name": "Socialismo Religioso",
         "stats": {
             "econ": 80,
