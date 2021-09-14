@@ -819,6 +819,15 @@ ideologies = [
         }
     },
     {
+        "name": "Kursk",
+        "stats": {
+            "econ": 60,
+            "dipl": 30,
+            "govt": 65,
+            "scty": 60
+        }
+    },
+    {
         "name": "Capitalismo Totalitario",
         "stats": {
             "econ": 0,
