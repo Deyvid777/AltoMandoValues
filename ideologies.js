@@ -729,6 +729,15 @@ ideologies = [
         }
     },
     {
+        "name": "Pensamiento de José Nietzsche",
+        "stats": {
+            "econ": 76,
+            "dipl": 25,
+            "govt": 35,
+            "scty": 15
+        }
+    },
+    {
         "name": "Comunismo Nacional",
         "stats": {
             "econ": 95,
