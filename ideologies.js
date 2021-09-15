@@ -81,6 +81,15 @@ ideologies = [
         }
     },
     {
+        "name": "JDanielPuente",
+        "stats": {
+            "econ": 95,
+            "dipl": 35,
+            "govt": 30,
+            "scty": 55
+        }
+    },
+    {
         "name": "De Leonismo",
         "stats": {
             "econ": 100,
@@ -369,6 +378,15 @@ ideologies = [
         }
     },
     {
+        "name": "Pam Salao",
+        "stats": {
+            "econ": 45,
+            "dipl": 45,
+            "govt": 50,
+            "scty": 65
+        }
+    },
+    {
         "name": "Liberalismo",
         "stats": {
             "econ": 50,
@@ -554,6 +572,15 @@ ideologies = [
             "econ": 20,
             "dipl": 20,
             "govt": 40,
+            "scty": 20
+        }
+    },
+    {
+        "name": "RonPolitics",
+        "stats": {
+            "econ": 30,
+            "dipl": 15,
+            "govt": 45,
             "scty": 20
         }
     },
