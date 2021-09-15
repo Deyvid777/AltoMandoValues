@@ -84,7 +84,7 @@ ideologies = [
         "name": "JDanielPuente",
         "stats": {
             "econ": 95,
-            "dipl": 35,
+            "dipl": 65,
             "govt": 30,
             "scty": 55
         }
