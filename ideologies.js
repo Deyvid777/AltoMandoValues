@@ -504,6 +504,15 @@ ideologies = [
         }
     },
     {
+        "name": "Kosmo",
+        "stats": {
+            "econ": 25,
+            "dipl": 45,
+            "govt": 50,
+            "scty": 20
+        }
+    },
+    {
         "name": "Neo-Liberalismo",
         "stats": {
             "econ": 30,
