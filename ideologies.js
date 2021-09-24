@@ -650,10 +650,10 @@ ideologies = [
     {
         "name": "Conservadurismo de Gobierno Pequeño",
         "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
+            "econ": 20,
+            "dipl": 35,
+            "govt": 80,
+            "scty": 30
         }
     },
     { 
