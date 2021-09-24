@@ -216,6 +216,15 @@ ideologies = [
         }
     },
     {
+        "name": "Comunismo de Consejo",
+        "stats": {
+            "econ": 90,
+            "dipl": 80,
+            "govt": 75,
+            "scty": 60
+        }
+    },
+    {
         "name": "Anarcosindicalismo",
         "stats": {
             "econ": 80,
@@ -638,6 +647,15 @@ ideologies = [
             "scty": 40
         }
     },
+    {
+        "name": "Conservadurismo de Gobierno Pequeño",
+        "stats": {
+            "econ": 10,
+            "dipl": 50,
+            "govt": 90,
+            "scty": 40
+        }
+    },
     { 
         "name": "Paleolibertarianismo",
         "stats": {
@@ -690,6 +708,15 @@ ideologies = [
             "dipl": 30,
             "govt": 15,
             "scty": 40
+        }
+    },
+    {
+        "name": "Baazismo",
+        "stats": {
+            "econ": 40,
+            "dipl": 20,
+            "govt": 15,
+            "scty": 60
         }
     },
     {
