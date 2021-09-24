@@ -72,6 +72,15 @@ ideologies = [
         }
     },
     {
+        "name": "Comunismo de Izquierda",
+        "stats": {
+            "econ": 100,
+            "dipl": 10,
+            "govt": 35,
+            "scty": 75
+        }
+    },
+    {
         "name": "Marxismo",
         "stats": {
             "econ": 100,
@@ -888,6 +897,15 @@ ideologies = [
             "dipl": 40,
             "govt": 70,
             "scty": 60
+        }
+    },
+    {
+        "name": "Socialismo de Mercado Libertario",
+        "stats": {
+            "econ": 85,
+            "dipl": 50,
+            "govt": 80,
+            "scty": 65
         }
     },
     {
