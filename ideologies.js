@@ -864,6 +864,15 @@ ideologies = [
         }
     },
     {
+        "name": "Odalismo",
+        "stats": {
+            "econ": 55,
+            "dipl": 5,
+            "govt": 90,
+            "scty": 0
+        }
+    },
+    {
         "name": "Internacionalismo Religioso",
         "stats": {
             "econ": 50,
