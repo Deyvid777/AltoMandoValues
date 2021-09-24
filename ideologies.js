@@ -75,7 +75,7 @@ ideologies = [
         "name": "Comunismo de Izquierda",
         "stats": {
             "econ": 100,
-            "dipl": 10,
+            "dipl": 90,
             "govt": 35,
             "scty": 75
         }
