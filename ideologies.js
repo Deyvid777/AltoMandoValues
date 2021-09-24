@@ -531,6 +531,15 @@ ideologies = [
         }
     },
     {
+        "name": "Paleoconservadurismo",
+        "stats": {
+            "econ": 25,
+            "dipl": 15,
+            "govt": 30,
+            "scty": 15
+        }
+    },
+    {
         "name": "Conservadurismo",
         "stats": {
             "econ": 30,
