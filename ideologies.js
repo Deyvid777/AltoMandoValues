@@ -198,21 +198,21 @@ ideologies = [
         }
     },
     {
-        "name": "Pestañas",
-        "stats": {
-            "econ": 70,
-            "dipl": 55,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
         "name": "Socialismo democrático",
         "stats": {
             "econ": 80,
             "dipl": 50,
             "govt": 50,
             "scty": 80
+        }
+    },
+    {
+        "name": "Pestañas",
+        "stats": {
+            "econ": 70,
+            "dipl": 55,
+            "govt": 50,
+            "scty": 70
         }
     },
     {
