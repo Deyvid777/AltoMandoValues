@@ -225,6 +225,15 @@ ideologies = [
         }
     },
     {
+        "name": "Socialismo del Siglo 21",
+        "stats": {
+            "econ": 85,
+            "dipl": 30,
+            "govt": 50,
+            "scty": 50
+        }
+    },
+    {
         "name": "Socialismo Libertario",
         "stats": {
             "econ": 80,
